@@ -10,9 +10,7 @@ pipeline {
             steps {
                sh 'mvn clean package'
                         }
-        }
-        stage('Depltest') { 
-            steps {
+                steps {
                 echo "deploy completed"
             }
         }
